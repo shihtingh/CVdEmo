@@ -1181,3 +1181,12 @@ section {
   text-align: center;
   font-size: 13px;
 }
+@font-face {
+  font-family: 'Iansui';
+  src: url('../fonts/Iansui.woff') format("woff"),
+         url('../fonts/Iansui.ttf') format("truetype"),
+         url('../fonts/Iansui.eot') format("embedded-opentype");
+}
+body {
+  font-family: 'Iansui' ;
+}
