@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -35,8 +36,19 @@
 </head>
 
 <body>
+  <audio id="BGmusic" src="assets\ms\Sunny Travel - Nico Staf.mp3" autoplay loop volume="0.3"></audio>
+  <script>
+    var audio = document.getElementById("BGmusic");
+    audio.volume = 0.1;
+    function playAudio() {
+      audio.play();
+}
 
-  <!-- ======= Hero Section ======= -->
+function pauseAudio() {
+  audio.pause();
+}
+  </script>
+      <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column align-items-center justify-content-center">
     <h1>黃詩婷</h1>
     <h2>我是<span class="auto-input"></span></h2>
