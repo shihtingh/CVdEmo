@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'JasonHandwriting1,Iansui0.91-Regular';
   color: #5a656e;
 }
 
@@ -29,7 +29,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Playfair Display", serif;
+  font-family: 'JasonHandwriting1,Iansui0.91-Regular';
 }
 
 /*--------------------------------------------------------------
@@ -330,7 +330,7 @@ h6 {
 #hero {
   width: 100%;
   height: 75vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/BG1.jpg") top center;
   background-size: cover;
   padding: 0 15px;
 }
@@ -341,6 +341,7 @@ h6 {
   font-weight: 700;
   line-height: 56px;
   color: #fff;
+  font-family: 'JasonHandwriting1,Iansui0.91-Regular';
 }
 
 #hero h2 {
@@ -348,7 +349,7 @@ h6 {
   margin-bottom: 10px;
   font-size: 24px;
   font-weight: 300;
-  font-family: "Poppins", sans-serif;
+  font-family: 'JasonHandwriting1,Iansui0.91-Regular';
 }
 
 #hero .btn-get-started {
@@ -506,13 +507,13 @@ section {
   font-weight: 700;
   color: #2c4964;
   margin-left: 50px;
-  font-family: "Playfair Display", serif;
+  font-family: 'JasonHandwriting1,Iansui0.91-Regular';
 }
 
 .about .content .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 50px;
-  font-family: "Playfair Display", serif;
+  font-family: 'JasonHandwriting1,Iansui0.91-Regular';
   font-size: 14px;
   color: #437099;
 }
@@ -523,7 +524,7 @@ section {
   margin-top: 20px;
   color: #437099;
   font-size: 15px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'JasonHandwriting1,Iansui0.91-Regular';
   transition: ease-in-out 0.3s;
 }
 
@@ -532,9 +533,33 @@ section {
 }
 
 .about .image {
-  background: url("../img/me.jpg") center center no-repeat;
   background-size: cover;
   min-height: 400px;
+  animation-name: bgimg;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-direction:normal;
+  animation-timing-function:cubic-bezier(5,5,5,5);
+}
+@keyframes bgimg {
+  0% {
+    background: url("../img/me/LINE_ALBUM_20221226_221226.jpg") no-repeat;
+    background-size: cover
+  }
+
+  25% {
+    background: url("../img/me/LINE_ALBUM_20221226_221226_0.jpg") no-repeat;
+    background-size: cover
+  }
+  50% {
+    background: url("../img/me/LINE_ALBUM_20221226_221226_1.jpg") no-repeat;
+    background-size: cover
+  }
+
+  100% {
+    background: url("../img/me/LINE_ALBUM_20221226_221226_2.jpg") no-repeat;
+    background-size: cover
+  }
 }
 
 @media (max-width: 991px) {
@@ -568,7 +593,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: 'JasonHandwriting1,Iansui0.91-Regular';
   color: #2c4964;
 }
 
@@ -597,7 +622,7 @@ section {
   margin-top: 20px;
   margin-bottom: 20px;
   color: #4b7dab;
-  font-family: "Poppins", sans-serif;
+  font-family: 'JasonHandwriting1,Iansui0.91-Regular';
 }
 
 .resume .resume-item {
@@ -622,7 +647,7 @@ section {
   display: inline-block;
   font-weight: 400;
   margin-bottom: 10px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'JasonHandwriting1,Iansui0.91-Regular';
 }
 
 .resume .resume-item ul {
@@ -1030,7 +1055,7 @@ section {
 .contact .contact-about p {
   font-size: 14px;
   line-height: 24px;
-  font-family: "Playfair Display", serif;
+  font-family: 'JasonHandwriting1,Iansui0.91-Regular';
   color: #3c6387;
 }
 
@@ -1182,11 +1207,35 @@ section {
   font-size: 13px;
 }
 @font-face {
-  font-family: 'Iansui';
-  src: url('../fonts/Iansui.woff') format("woff"),
-         url('../fonts/Iansui.ttf') format("truetype"),
-         url('../fonts/Iansui.eot') format("embedded-opentype");
+  font-family: 'JasonHandwriting1,Iansui0.91-Regular';
+  src: url('../fonts/Iansui0.91-Regular.woff') format("woff"),
+         url('../fonts/Iansui0.91-Regular.ttf') format("truetype"),
+         url('../fonts/Iansui0.91-Regular.eot') format("embedded-opentype"),
+         url('../fonts/JasonHandwriting1.woff') format("woff"),
+         url('../fonts/JasonHandwriting1.ttf') format("truetype"),
+         url('../fonts/JasonHandwriting1r.eot') format("embedded-opentype");
 }
 body {
-  font-family: 'Iansui' ;
+  font-family: 'JasonHandwriting1,Iansui0.91-Regular' ;
+}
+p{
+  font-family: 'JasonHandwriting1,Iansui0.91-Regular' ;
+}
+h1{
+  font-family: 'JasonHandwriting1,Iansui0.91-Regular' ;
+}
+h2{
+  font-family: 'JasonHandwriting1,Iansui0.91-Regular' ;
+}
+h3{
+  font-family: 'JasonHandwriting1,Iansui0.91-Regular' ;
+}
+h4{
+  font-family: 'JasonHandwriting1,Iansui0.91-Regular' ;
+}
+h5{
+  font-family: 'JasonHandwriting1,Iansui0.91-Regular' ;
+}
+h6{
+  font-family: 'JasonHandwriting1,Iansui0.91-Regular' ;
 }
