@@ -11,6 +11,7 @@
 body {
   font-family: 'JasonHandwriting1,Iansui0.91-Regular';
   color: #5a656e;
+  
 }
 
 a {
@@ -89,7 +90,7 @@ h6 {
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
-  color: #2c4964;
+  color: #d43076;
   text-decoration: none;
 }
 
@@ -480,7 +481,7 @@ section {
 .about .content h3 {
   font-weight: 500;
   font-size: 34px;
-  color: #2c4964;
+  color: #d43076;
 }
 
 .about .content p {

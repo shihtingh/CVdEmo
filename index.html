@@ -36,11 +36,6 @@
 </head>
 
 <body>
-  <audio id="BGmusic" src="assets\ms\Sunny Travel - Nico Staf.mp3" autoplay="true" loop="true"></audio>
-  <script>
-    var audio = document.getElementById("BGmusic");
-    audio.volume = 0.1;    
-  </script>
       <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column align-items-center justify-content-center">
     <h1>黃詩婷</h1>
@@ -59,7 +54,6 @@
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
-
       <div class="logo">
         <h1><a href="index.html">CHAYA</a></h1>
       </div>
@@ -105,6 +99,11 @@
           <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start"></div>
           <div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch">
             <div class="content d-flex flex-column justify-content-center">
+              <audio id="BG" src="assets\ms\BG.mp3" autoplay loop controls></audio>
+              <script>
+                var audio = document.getElementById(BG)
+                audio.volume =0.01
+              </script>
               <h3>夢想是我的原動力</h3>
               <p>
                 我畢業於國立臺南護理專科學校老人服務事業科，在就讀南護期間曾修過「計算機概論」與「資訊軟體應用」，這種有關於數學邏輯或電腦的課程都是我的最愛。南護畢業後，毅然決然地選擇了北護的醫教系，因為這是我往程式更加邁進的一步，經過一年多的學習讓我發現，大家在遇到有關程式的問題，都會第一時間的聯想到我，而這也讓我對程式有了更大的憧憬與嚮往，希望自己能真的利用程式語言開發出遊戲或APP。
@@ -220,7 +219,7 @@
 
         <div class="section-title">
           <h2>履歷</h2>
-          <p>我不怕自己努力了不成功，我只怕比我成功的人比我更努力</p>
+          <p>我不怕自己努力了不成功，我只怕別人比我更努力</p>
         </div>
 
         <div class="row">
