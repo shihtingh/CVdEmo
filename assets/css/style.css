@@ -893,7 +893,14 @@ section {
 }
 
 .portfolio-details .portfolio-details-slider img {
-  width: 100%;
+  width: auto;
+  height: 400px;
+  position: relative;  
+  object-position: center center; /* 預設值即為 center center，此行可省 */
+  object-fit: contain;
+  margin: 0 auto;
+  vertical-align : middle;
+  text-align : center; 
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
@@ -949,7 +956,9 @@ section {
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
-
+.portfolio-details .portfolio-info ul h3 {
+  font-size: 20PX;
+}
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
