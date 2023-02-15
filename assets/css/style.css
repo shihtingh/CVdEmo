@@ -1220,11 +1220,11 @@ section {
 @font-face {
   font-family: 'JasonHandwriting1,Iansui0.91-Regular';
   src: url('../fonts/Iansui0.91-Regular.woff') format("woff"),
-         url('../fonts/Iansui0.91-Regular.ttf') format("truetype"),
-         url('../fonts/Iansui0.91-Regular.eot') format("embedded-opentype"),
-         url('../fonts/JasonHandwriting1.woff') format("woff"),
-         url('../fonts/JasonHandwriting1.ttf') format("truetype"),
-         url('../fonts/JasonHandwriting1r.eot') format("embedded-opentype");
+        url('../fonts/Iansui0.91-Regular.ttf') format("truetype"),
+        url('../fonts/Iansui0.91-Regular.eot') format("embedded-opentype"),
+        url('../fonts/JasonHandwriting1.woff') format("woff"),
+        url('../fonts/JasonHandwriting1.ttf') format("truetype"),
+        url('../fonts/JasonHandwriting1r.eot') format("embedded-opentype");
 }
 body {
   font-family: 'JasonHandwriting1,Iansui0.91-Regular' ;
